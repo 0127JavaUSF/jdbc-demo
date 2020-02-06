@@ -28,4 +28,8 @@ public class InputUtil {
 		
 		return selection;
 	}
+	
+	public static String getNextString() {
+		return scanner.nextLine();
+	}
 }
